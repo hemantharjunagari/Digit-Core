@@ -1,0 +1,202 @@
+{
+   "dashboard-analytics": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "business-services/dashboard-analytics",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-accesscontrol": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-accesscontrol",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-enc-service": {
+      "db_migration_dockerfile_path": "core-services/egov-enc-service/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-enc-service",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-filestore": {
+      "db_migration_dockerfile_path": "core-services/egov-filestore/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-filestore",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-hrms": {
+      "db_migration_dockerfile_path": "business-services/egov-hrms/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "business-services/egov-hrms",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-idgen": {
+      "db_migration_dockerfile_path": "core-services/egov-idgen/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-idgen",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-indexer": {
+      "db_migration_dockerfile_path": "core-services/egov-indexer/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-indexer",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-localization": {
+      "db_migration_dockerfile_path": "core-services/egov-localization/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-localization",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-location": {
+      "db_migration_dockerfile_path": "core-services/egov-location/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-location",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-mdms-service-v2": {
+    "db_migration_dockerfile_path": "core-services/egov-mdms-service-v2/src/main/resources/db",
+    "dockerfile_path": "build/maven/Dockerfile",
+    "service_source_path": "core-services/egov-mdms-service-v2",
+    "ssl_certificate_url": "",
+    "java_version": "17",
+    "ssl_request": "false"
+   },
+   "egov-mdms-service": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-mdms-service",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-notification-mail": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-notification-mail",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-notification-sms": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-notification-sms",
+      "ssl_certificate_url": "msdgweb.mgov.gov.in",
+      "java_version": "17",
+      "ssl_request": "true"
+   },
+   "egov-otp": {
+      "db_migration_dockerfile_path": "core-services/egov-otp/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-otp",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-persister": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-persister",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-url-shortening": {
+      "db_migration_dockerfile_path": "core-services/egov-url-shortening/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-url-shortening",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-user": {
+      "db_migration_dockerfile_path": "core-services/egov-user/src/main/resources/db",
+      "dockerfile_path": "build/maven-java8/Dockerfile",
+      "service_source_path": "core-services/egov-user",
+      "ssl_certificate_url": "",
+      "java_version": "8",
+      "ssl_request": "false"
+   },
+   "egov-user-event": {
+      "db_migration_dockerfile_path": "core-services/egov-user-event/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-user-event",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "egov-workflow-v2": {
+      "db_migration_dockerfile_path": "core-services/egov-workflow-v2/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/egov-workflow-v2",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "farmer-user-metrics": {
+      "db_migration_dockerfile_path": "dfs-services/farmer-user-metrics/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "dfs-services/farmer-user-metrics",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "individual": {
+      "db_migration_dockerfile_path": "health-services/individual/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "health-services/individual",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "pdf-service": {
+      "db_migration_dockerfile_path": "core-services/pdf-service/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/pdf-service",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "pgr-services": {
+      "db_migration_dockerfile_path": "core-services/pgr-service/src/main/resources/db",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/pgr-service",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "user-otp": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/user-otp",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   },
+   "zuul": {
+      "db_migration_dockerfile_path": "",
+      "dockerfile_path": "build/maven/Dockerfile",
+      "service_source_path": "core-services/zuul",
+      "ssl_certificate_url": "",
+      "java_version": "17",
+      "ssl_request": "false"
+   }
+}
