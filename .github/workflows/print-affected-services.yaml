@@ -1,0 +1,23 @@
+name: 'Print Affected Services'
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  print-affected-services:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repository containing the workflow
+      - name: Checkout Current Repository
+        uses: actions/checkout@v3
+
+      # Step 2: Use the composite action from the external repository
+      - name: Fetch Affected Services
+        uses: hemantharjunagari/DevOps/composite-actions/fetch-paths@main
+        id: fetch_paths
+
+      # Step 3: Print the affected services
+      - name: Print Services
+        run: |
+          echo "Affected services: ${{ steps.fetch_paths.outputs.matrix_services }}"
