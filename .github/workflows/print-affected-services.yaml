@@ -14,7 +14,7 @@ jobs:
 
       # Step 2: Use the composite action from the external repository
       - name: Fetch Affected Services
-        uses: hemantharjunagari/DevOps/composite-actions/fetch-paths@main
+        uses: hemantharjunagari/DevOps/composite-actions/fetch-paths@f-github-actions
         id: fetch_paths
 
       # Step 3: Print the affected services
